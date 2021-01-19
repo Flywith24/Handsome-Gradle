@@ -1,0 +1,7 @@
+task hello {
+    description "很高兴见到你！运行它吧~"
+    group "Our demo"
+    doLast {
+        println "Hello World!"
+    }
+}
